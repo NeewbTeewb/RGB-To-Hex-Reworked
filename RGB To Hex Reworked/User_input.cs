@@ -58,6 +58,10 @@ namespace RGB_To_Hex_Reworked
                     numbers[i] = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine(numbers[i]);
                 }
+                for(int j = 0; j != 10; j++)
+                {
+                    Console.WriteLine(j);
+                }
 
                 Inputted_Variables();
                 
