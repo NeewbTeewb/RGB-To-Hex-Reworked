@@ -52,12 +52,12 @@ namespace RGB_To_Hex_Reworked
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(numbers[i]);
                 
-                /*while(Number_is_outside_range(numbers[i]))
+                while(Number_is_outside_range(numbers[i]))
                 {
                     Console.WriteLine("Number is outside range, try again");
                     numbers[i] = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine(numbers[i]);
-                }*/
+                }
 
                 Inputted_Variables();
                 
